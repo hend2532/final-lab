@@ -236,9 +236,13 @@ button:hover{
     font-size: 16px;
     font-weight: 400;
   }
+  footer{
+    margin-top: 25px;
+  }
   footer button{
     width: 100px !important;
   }
+
   #root > div > footer > div.mouse > h2:nth-child(1), #root > div > footer > div.mouse > h2:nth-child(2){
     display: none !important;
 
