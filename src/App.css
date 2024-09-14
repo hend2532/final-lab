@@ -1,6 +1,10 @@
 *{
   box-sizing: border-box;
 }
+html{
+  position: relative;
+  min-height: 100vh;
+}
 header,footer{
   display: flex;
   justify-content: space-evenly;
@@ -18,7 +22,7 @@ header{
   background:#f0f7f9;
 }
 footer{
-  position: sticky !important;;
+  position:absolute;
   bottom:  0px;
   margin-bottom: 0;
   margin-top: 15px;
@@ -32,7 +36,7 @@ header a:hover{
 form{
   width: 400px;
   padding:25px 25px;
-  margin:auto;
+  margin:20px auto;
   box-shadow:0px 0px 7px 0px rgb(139, 178, 206)  ;
 }
 .welcome{
@@ -133,7 +137,7 @@ button:hover{
 .card{
   display: flex;
   flex-direction: column;
-  width: 170px !important;
+  width: 200px !important;
   align-items: center;
   background: #e6f6fb;
   padding-bottom: 10px;
@@ -238,6 +242,9 @@ button:hover{
   #root > div > footer > div.mouse > h2:nth-child(1), #root > div > footer > div.mouse > h2:nth-child(2){
     display: none !important;
 
+  }
+  .card{
+    width: 90%;
   }
   form{
     width: 90%;
