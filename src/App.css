@@ -237,7 +237,9 @@ button:hover{
     font-weight: 400;
   }
   footer{
-    margin-top: 25px;
+    margin-top: 50px;
+    position: sticky;
+
   }
   footer button{
     width: 100px !important;
