@@ -225,11 +225,19 @@ button:hover{
   footer,header{
     width: 100%;
     flex-direction: row;
-    gap: auto;
+    gap: 3px !important;
+    font-size: 13px !important;
   }
   h2{
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 400;
+  }
+  footer button{
+    width: 100px !important;
+  }
+  #root > div > footer > div.mouse > h2:nth-child(1), #root > div > footer > div.mouse > h2:nth-child(2){
+    display: none !important;
+
   }
   form{
     width: 90%;
