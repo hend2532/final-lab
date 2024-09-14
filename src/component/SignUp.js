@@ -16,7 +16,7 @@ function SignUp() {
 
   if (show) {
     return (
-      <div className="flex flex-col  w-100 m-52  bg-slate-50 p-4 justify-center gap-3 rounded-md shadow-md  ">
+      <div className="flex flex-col   bg-slate-50 p-4 justify-center gap-3 rounded-md shadow-md  ">
         <h2 className="text-center text-blue-500">Sign-Up</h2>
         <p>Welcome :<span> {form.name}</span></p>
         <p>Your Email is  : <span>{form.email}</span></p>
@@ -28,7 +28,7 @@ function SignUp() {
     );
   }
   return ( 
-    <form className="flex flex-col  w-96 m-52  bg-blue-300   justify-center gap-3 rounded-md  ">
+    <form className="flex flex-col   bg-blue-300   justify-center gap-3 rounded-md  ">
       <h2 className="text-center text-blue-500">Login Page </h2>
       <label>Name : </label>
       <input
