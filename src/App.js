@@ -18,9 +18,7 @@ import Footer from "./component/Footer";
 function App() {
   return (
     <div className="App">
-      {/* <Login/> */}
       <BrowserRouter>
-        {/* <Home /> */}
         <Routes>
           <Route path="/" element={<Login />} />
          <Route path="/home" element={<Products />} />

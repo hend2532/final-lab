@@ -1,5 +1,5 @@
 function Card({ product }) {
-  // const  [img,name,price,category]=product
+
   return (
     <div className=" card  text-center rounded-md bg-cyan-400">
       <img
