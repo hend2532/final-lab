@@ -1,7 +1,5 @@
-.home{
-  height: auto;
-  max-height: 53vh;
-  margin: auto;
+*{
+  box-sizing: border-box;
 }
 header,footer{
   display: flex;
@@ -32,9 +30,15 @@ header a:hover{
   color:#08bcf8
 }
 form{
+  width: 400px;
   padding:25px 25px;
-  margin:25%;
+  margin:auto;
   box-shadow:0px 0px 7px 0px rgb(139, 178, 206)  ;
+}
+.welcome{
+  width:400px;
+  margin:auto;
+  margin-top: 15px;
 }
 input{
   outline: none;
@@ -215,4 +219,37 @@ button:hover{
   height: 50%;
   border-radius: 10px;
   color: wheat !important;
+}
+
+@media (max-width:500px) {
+  footer,header{
+    width: 100%;
+    flex-direction: row;
+    gap: auto;
+  }
+  h2{
+    font-size: 18px;
+    font-weight: 400;
+  }
+  form{
+    width: 90%;
+    /* transform: translate(-5%,-25%); */
+    
+  }
+  .product,.products{
+    width: 90%;
+    margin:15px  auto;
+  }
+.one,.search{
+  width: 90%;
+}
+  
+}
+@media (max-width:600px) {
+  form{
+    width:90%;
+    margin: 30px auto;
+    /* transform: translate(-25%,-25%); */
+    
+  }
 }

@@ -1,4 +1,5 @@
 import React, { useRef, useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 
 function SignUp() {
   const [form, setForm] = useState({ name: "", email: "" });
@@ -20,6 +21,9 @@ function SignUp() {
         <p>Welcome :<span> {form.name}</span></p>
         <p>Your Email is  : <span>{form.email}</span></p>
         <p>You are Signed Up to the Website at <span>{new Date().toLocaleString()}</span></p>
+        <Link to="/home" >
+        <button>Go to Home</button>
+        </Link>
       </div>
     );
   }

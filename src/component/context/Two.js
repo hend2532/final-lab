@@ -1,13 +1,13 @@
-import React from 'react'
-import Three from './Three'
+import React from "react";
+import Three from "./Three";
 
 function Two() {
   return (
-    <div className='two'>
+    <div className="two">
       <h2>two</h2>
-      <Three/>
+      <Three />
     </div>
-  )
+  );
 }
 
-export default Two
+export default Two;

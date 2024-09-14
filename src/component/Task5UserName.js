@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react'
+import { Link } from 'react-router-dom'
 
 function Task5UserName() {
   const [name,setName]=useState("") 
@@ -12,6 +13,9 @@ function Task5UserName() {
         <label>Name : </label>
         <input type="text" placeholder='name...' value={name} onChange={(e)=>setName(e.target.value)}/>
         <br/><br/><h2 className='max-w-96'>{greet}</h2>
+        <Link to="/" >
+        <button>Login</button>
+        </Link>
     </form>
   )
 }

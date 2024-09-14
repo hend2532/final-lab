@@ -1,13 +1,13 @@
-import React from 'react'
-import Five from './Five'
+import React from "react";
+import Five from "./Five";
 
 function Four() {
   return (
-    <div className='four'>
+    <div className="four">
       <h2>Four</h2>
-      <Five/>
+      <Five />
     </div>
-  )
+  );
 }
 
-export default Four
+export default Four;
